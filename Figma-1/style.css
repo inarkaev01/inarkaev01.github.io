@@ -1,0 +1,174 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Libre Franklin', sans-serif;
+	font-size: 18px;
+	margin: 0;
+	padding:0;
+}
+a{
+	color: inherit;
+}
+
+header{
+	background-image: url(img/bg.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.wrap{
+	width: 1100px;
+	margin: auto;
+}
+.bg{
+	background-color: rgba(198, 108, 73, 0.3);
+	padding-top: 100px;
+	padding-bottom: 240px;
+	color: #fff;
+}
+.navigation{
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 140px;
+}
+
+.navigation .menu{
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+
+}
+.navigation .logo{
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+
+}
+.navigation nav{
+	width: 530px;
+}
+.navigation .menu li{
+    list-style-type: none;
+}
+.texts h1{
+	font-size: 64px;
+	font-weight: 300;
+}
+.texts p{
+	font-size: 24px;
+	padding-bottom: 100px;
+}
+.about {
+	padding: 90px  0 110px 0; 
+}
+.title{
+	padding-bottom: 75px;
+	font-size: 24px;
+	font-weight: bold;
+}
+.about p{
+	line-height: 30px;
+}
+.skills{
+	padding:90px 0 140px 0;
+	background-color: #FFFAF2;
+}
+.main-skills{
+	display: flex;
+	justify-content: space-between;
+}
+.picture{
+	width: 350px;
+}
+.informer{
+	width: 635px;
+}
+.profile, .profile-main{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.profile-main{
+	margin-bottom: 65px;
+}
+.profile-pink{
+	width: 450px;
+	background-color: #F5D6AB;
+    height: 25px;
+}
+.profile-orange{
+	height: 25px;
+	width: 380px;
+	background-color: #C66C49;
+}
+.profile-text_2{
+	width: 450px;
+	text-align: left;
+}
+.portfolio{
+	padding:90px 0 140px 0;
+}
+.reserch{
+	display: flex;
+	justify-content: space-between;
+}
+.portfolio-info{
+	width: 465px;
+	padding-right: 125px;
+}
+.portfolio-info h6{
+	font-size: 18px;
+	margin: 0 0 50px 0;
+	padding: 0;
+}
+.portfolio-info p{
+	line-height: 30px;
+	text-align: justify;
+}
+
+.portfolio-images{
+	width: 635px;
+}
+.gallery{
+	display: flex;
+	justify-content: space-between;
+    padding-top: 50px;
+}
+.column_1{
+	width: 350px;
+}
+.column_1 .option, .column_2 .option{
+	padding-bottom: 30px;
+}
+.column_2{
+	width: 255px;
+}
+.arrow i{
+	padding-top: 230px;
+	font-size: 24px;
+	color: #333333;
+}
+.arrow .fa-angle-left{
+	margin-right: 15px;
+	margin-left: 25px;
+}
+footer{
+	background-color: #FFFAF2;
+	padding: 90px 0 190px 0;
+}
+.footer{
+	display: flex;
+	justify-content: space-between;
+}
+.footer-col-3 span{
+	font-size: 15px;
+}
+.up{
+	font-size: 24px;
+	position: relative;
+	top: 200px;
+	text-align: right;
+}
+
+
